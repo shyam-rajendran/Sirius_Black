@@ -145,7 +145,7 @@ Pyro Pinout:
 
 ## Troubleshoot
 1. The resistors used across comparator within the pyro channels were modified to change the reference voltage. The capacitor was replaced with a resistor. Input values changed to meet the common mode input voltage requirement. (Check [Notion Page](https://chief-cat-5a9.notion.site/Flight-Computer-5-SIRIUS-1274bad4a99a81079046df186ca57ac9?source=copy_link) for config details)
-- Capacitor is changed as because of it the value of IN- doesn’t vary despite changing the resistor in series. This is because the resistor doesn’t have any reference to the ground as the capacitor is in the middle. Changed capacitor to 5.1k
+> Capacitor is changed as because of it the value of IN- doesn’t vary despite changing the resistor in series. This is because the resistor doesn’t have any reference to the ground as the capacitor is in the middle. Changed capacitor to 5.1k
 
 
 
