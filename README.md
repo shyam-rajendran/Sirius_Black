@@ -103,6 +103,24 @@ SPI Peripherals
 |       RESET       |   GPIO09  |         -         |     -    |            -            |     -    |
 |        NSS        |   GPIO10  |         -         |     -    |            -            |     -    |
 
+UART Peripheral: NEOM8N
+|   **TX**   |   **RX**   |
+|:------:|:------:|
+| GPIO17 | GPIO18 |
+
+
+General Pinout:
+|   **Voltage In**   |   **Passive Buzzer**   |
+|:------:|:------:|
+| GPIO7 | GPIO16 |
+
+Pyro Pinout:
+|   **Pyro Channel**   |  **GPIO**  |
+|:----------------:|:------:|
+| Pyro1 Continuity | GPIO41 |
+| Pyro1 Trigger    | GPIO48 |
+| Pyro2 Continuity | GPIO42 |
+| Pyro2 Trigger    | GPIO47 |
 
 
 
@@ -131,3 +149,4 @@ SPI Peripherals
 
 
 
+Author: Shyam Rajendran (monkee)
