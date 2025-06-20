@@ -16,7 +16,7 @@ The PCB was designed entirely in Altium Designer. I've included the entire Altiu
 To replicate or view the project using Altium, download the files and open it within Altium. Specify the file location for each project file within the project tree
 
     1. Sirius FC.DsnWrk 
-       The Design Workspace — manages the working environment setup, such as open documents and panels. Not critical to version control.
+       The Design Workspace — manages the working environment setup, such as open documents and panels. 
        
     2. Sirius_Black.PrjPcbStructure
        Internal file that manages project structure data, not important.
