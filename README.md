@@ -13,7 +13,7 @@ Throughout the developement of this, I documented my approach and considerations
 ## Repo Structure
 The PCB was designed entirely in Altium Designer. I've included the entire Altium project file including the design files, libraries, 3D models, documentations, schematics, gerber, NCC files. 
 
-To replicate or view the project using Altium, download the files and open it within Altium. Specify the file location for each project file within the project tree
+To replicate or view the project using Altium, download the files and open it within Altium. Specify the file location for each project file within the project tree.
 
     1. Sirius FC.DsnWrk 
        The Design Workspace — manages the working environment setup, such as open documents and panels. 
@@ -94,7 +94,7 @@ I2C Peripheral addresses:
 
 SPI Peripherals
 
-| **RFM95W (LoRa)** | **GPIO ** | **Micro SD Card** | **GPIO** | **W25Q128JVSQ (Flash)** | **GPIO** |
+| **RFM95W (LoRa)** | **GPIO** | **Micro SD Card** | **GPIO** | **W25Q128JVSQ (Flash)** | **GPIO** |
 |:-----------------:|:---------:|:-----------------:|:--------:|:-----------------------:|:--------:|
 |        SCK        |   GPIO14  |        SCK        |  GPIO14  |           SCK           |  GPIO14  |
 |        MISO       |   GPIO13  |        MISO       |  GPIO13  |           MISO          |  GPIO13  |
