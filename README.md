@@ -1,18 +1,19 @@
 # Sirius Black - Flight Computer
 
-Sirius Black is the 5th gen custom flight computer fully designed and developed in house for the sounding rocket participating in IREC 25, Airavata. 
+Sirius Black is the 5th gen custom flight computer fully designed and developed in house for the sounding rocket built for IREC 25, Airavata. 
 
 Sirius Black consists a multitude of sensors required but not limited for model rocketry, along with 2 integrated pyro channels and 4 servo channels for any actuator control operations. ESP32-S3-N4R8 was the chosen microcontroller due to its great functionalities and prior familiarity with the ESP32 family ICs.
 
 The following write up gives a comprehensive data that could be used while operating with Sirius Black for future projects or serve as reference for any future developements. 
 
-Throughout the developement of this, I documented my approach and considerations I took for most of the steps involved in schematic design, layout planning, RF considerations, soldering and post-testing results along with mistakes made and solution implemented. My documentation, albeit unstructred, can be found here: 
+Throughout the developement of this, I documented my approach and considerations I took for most of the steps involved in component selection, schematic design, layout planning, RF considerations, soldering and post-testing results along with mistakes made and solution implemented. My documentation, albeit unstructured, can be found here: 
+[Notion](https://chief-cat-5a9.notion.site/Flight-Computer-5-SIRIUS-1274bad4a99a81079046df186ca57ac9)
 
 
 ## Repo Structure
 The PCB was designed entirely in Altium Designer. I've included the entire Altium project file including the design files, libraries, 3D models, documentations, schematics, gerber, NCC files. 
 
-If anybody wants to import the files, then specify the location of each file within Altium once downloaded and you'd be able to access it.
+To replicate or view the project using Altium, download the files and open it within Altium. Specify the file location for each project file within the project tree
 
     1. Sirius FC.DsnWrk 
        The Design Workspace — manages the working environment setup, such as open documents and panels. Not critical to version control.
@@ -125,4 +126,8 @@ SPI Peripherals
 
 
 ## Troubleshoot
+1. The resistors used across comparator within the pyro channels were modified to change the reference voltage. The capacitor was replaced with a resistor. Input values changed to meet the common mode input voltage requirement. (Check [Notion Page](https://chief-cat-5a9.notion.site/Flight-Computer-5-SIRIUS-1274bad4a99a81079046df186ca57ac9?source=copy_link) for config details)
+- Capacitor is changed as because of it the value of IN- doesn’t vary despite changing the resistor in series. This is because the resistor doesn’t have any reference to the ground as the capacitor is in the middle. Changed capacitor to 5.1k
+
+
 
