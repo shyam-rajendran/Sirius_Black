@@ -81,18 +81,18 @@ To replicate or view the project using Altium, download the files and open it wi
 
 ## Pinout and Address
 
-Communication Interface:
+**_Communication Interface:_**
 | **SDA** | **SCL** | **MOSI** | **MISO** | **SCK** |  
 | ------------- | ------------- | -- | -- | -- |
 | GPIO4  | GPIO5  | GPIO12 | GPIO13 | GPIO14 | 
 
 
-I2C Peripheral addresses:
+**_I2C Peripheral addresses:_**
 | **MS5611** | **BMP280** | **BMI088** | **DS3231RTC** | **LSM6DSL** |  **LIS3MDLTR** | **HMC5883L**|
 | ------------- | ------------- | -- | -- | -- |-- |--|
 | 0x77  | 0x76  | Accel: 0x19, Gyro: 0x69 | 0x68 | 0x6A | 0x1C| 0x1E|
 
-SPI Peripherals
+**_SPI Peripherals_**
 
 | **RFM95W (LoRa)** | **GPIO** | **Micro SD Card** | **GPIO** | **W25Q128JVSQ (Flash)** | **GPIO** |
 |:-----------------:|:---------:|:-----------------:|:--------:|:-----------------------:|:--------:|
@@ -103,18 +103,17 @@ SPI Peripherals
 |       RESET       |   GPIO09  |         -         |     -    |            -            |     -    |
 |        NSS        |   GPIO10  |         -         |     -    |            -            |     -    |
 
-UART Peripheral: NEOM8N
+_**UART Peripheral: NEOM8N**_
 |   **TX**   |   **RX**   |
 |:------:|:------:|
 | GPIO17 | GPIO18 |
 
-
-General Pinout:
+_**General Pinout:**_
 |   **Voltage In**   |   **Passive Buzzer**   |
 |:------:|:------:|
 | GPIO7 | GPIO16 |
 
-Pyro Pinout:
+_**Pyro Pinout:**_
 |   **Pyro Channel**   |  **GPIO**  |
 |:----------------:|:------:|
 | Pyro1 Continuity | GPIO41 |
