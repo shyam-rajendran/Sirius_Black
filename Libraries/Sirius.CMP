@@ -1,0 +1,14 @@
+Component   : 1k 0805 Resistor
+PCB Library : Sirius.PcbLib
+Date        : 06-04-2025
+Time        : 17:46:10
+
+
+
+Dimension : 0.168 x 0.1 in
+
+ Layer(s)              Pads(s)  Tracks(s)  Fill(s)  Arc(s)  Text(s)
+--------------------------------------------------------------------
+ Top Overlay                 0          6        0       0        0
+--------------------------------------------------------------------
+ Total                       0          6        0       0        0

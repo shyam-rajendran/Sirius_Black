@@ -1,0 +1,3 @@
+Added Component: Designator=L5(0402 10nH)
+Added Pin To Net: NetName=RF_IN Pin=L5-1
+Added Pin To Net: NetName=NetC45_2 Pin=L5-2

@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=USBD_N Pin=R8-2
+Removed Pin From Net: NetName=USBD_P Pin=R9-2
+Removed Pin From Net: NetName=USBD_P Pin=U2-15
+Removed Pin From Net: NetName=USBD_N Pin=U2-16
+Added Pin To Net: NetName=FTDI_N Pin=R8-2
+Added Pin To Net: NetName=FTDI_N Pin=U2-16
+Added Net: Name=FTDI_N
+Added Pin To Net: NetName=FTDI_P Pin=R9-2
+Added Pin To Net: NetName=FTDI_P Pin=U2-15
+Added Net: Name=FTDI_P
+Added Differential Pair: Name=FTDI
+Added Member To Class: ClassName=DIFF90 Member=FTDI

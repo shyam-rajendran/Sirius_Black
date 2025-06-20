@@ -1,0 +1,6 @@
+[ProjectGroup]
+Version=1.0
+[Project1]
+ProjectPath=Sirius_Black.PrjPcb
+[Project2]
+ProjectPath=..\esp32s3 prac\esp32s3 prac.PrjPcb
