@@ -148,7 +148,7 @@ Pyro Pinout:
 > Capacitor is changed as because of it the value of IN- doesn’t vary despite changing the resistor in series. This is because the resistor doesn’t have any reference to the ground as the capacitor is in the middle. Changed capacitor to 5.1k
 
 ## References
-A lot of reference and design recommendation was adopted from multiple sources. Selection of key references are listed below.
+A lot of references and design recommendations were adopted from multiple sources. Selection of key references are listed below.
 - [Ublox Hardware Integration Manual](https://content.u-blox.com/sites/default/files/NEO-M8_HardwareIntegrationManual_%28UBX-13003557%29.pdf)
 - [ESP32 S3 official documentation](espressif.com)
 - [tooyipjee - Spark Analyzer](https://github.com/tooyipjee/Spark-Analyzer/blob/master/pcb/Spark-Analyzer/production/Schematic.pdf)
