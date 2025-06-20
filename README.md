@@ -147,6 +147,19 @@ Pyro Pinout:
 1. The resistors used across comparator within the pyro channels were modified to change the reference voltage. The capacitor was replaced with a resistor. Input values changed to meet the common mode input voltage requirement. (Check [Notion Page](https://chief-cat-5a9.notion.site/Flight-Computer-5-SIRIUS-1274bad4a99a81079046df186ca57ac9?source=copy_link) for config details)
 > Capacitor is changed as because of it the value of IN- doesn’t vary despite changing the resistor in series. This is because the resistor doesn’t have any reference to the ground as the capacitor is in the middle. Changed capacitor to 5.1k
 
-
+## References
+A lot of reference and design recommendation was adopted from multiple sources. Selection of key references are listed below.
+- [Ublox Hardware Integration Manual](https://content.u-blox.com/sites/default/files/NEO-M8_HardwareIntegrationManual_%28UBX-13003557%29.pdf)
+- [ESP32 S3 official documentation](espressif.com)
+- [tooyipjee - Spark Analyzer](https://github.com/tooyipjee/Spark-Analyzer/blob/master/pcb/Spark-Analyzer/production/Schematic.pdf)
+- [GPS Layout shielding](https://www.youtube.com/watch?v=AJ8TMgo7eG0&t=1245s)
+- [Hierarchical Design](https://www.youtube.com/watch?v=eyPB0uBUOnc)
+- [hxtec - esp32s3](https://github.com/hxelec/s3p/blob/main/S3P%20schematic.pdf)
+- [Imperial Space Society](https://github.com/ImperialSpaceSociety/Flight-Computer/tree/master)
+- [GreatScott YouTube](https://www.youtube.com/@greatscottlab)
+- [Robert Feranec YouTube](https://www.youtube.com/@RobertFeranec_) (Highly Recommended)
+- [Hans Rosenberg YouTube](https://www.youtube.com/@HansRosenberg74)
+- [Altium Academy YouTube](https://www.youtube.com/watch?v=yK1qCWjPA-o&list=PLqBNxK9BgJkbIjCz92jbC-2v_DuTPHidB&index=20) (Highly Recommended)
+- [Phill's Lab YouTube](https://www.youtube.com/watch?v=_Hfzq1QES-Q&list=PLqBNxK9BgJkbIjCz92jbC-2v_DuTPHidB&index=13) (Highly Recommended)
 
 Author: Shyam Rajendran (monkee)
