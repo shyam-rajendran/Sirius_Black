@@ -107,27 +107,22 @@ SPI Peripherals
 
 
 ## Mistakes in Design
-a. Made a mistake while creating the footprint for WS2812B LED, where the pins are flipped, essentially rendering this LED as useless.
-
+1. Made a mistake while creating the footprint for WS2812B LED, where the pins are flipped, essentially rendering this LED as useless.
 
 > No possible solution other that hardwiring it, which I’d rather not do.
 
 
 2. SD Card not working consistently.
-a. I’ve implemented every possible solution I could think of yet I couldn’t get it to work properly. The footprint is correct and there is good continuity between all the pins. The SPI channel is healthy as well and does respond to other SPI peripherals.
+> I’ve implemented every possible solution I could think of yet I couldn’t get it to work properly. The footprint is correct and there is good continuity between all the pins. The SPI channel is healthy as well and does respond to other SPI peripherals.
 
-b. What I noticed was the the assigned CS pin fixed at 3V3. Ideally whenever SD card is accessed, CS should be pulled down but for some reason that wasn’t happening. There was no problem with the ESP32 S3 IC itself and the SD card mount was working properly as well.
+> What I noticed was the the assigned CS pin fixed at 3V3. Ideally whenever SD card is accessed, CS should be pulled down but for some reason that wasn’t happening. There was no problem with the ESP32 S3 IC itself and the SD card mount was working properly as well.
 
-c. Despite checking multiple times for soldering issue or continuity issue I couldn’t find any. However, I noticed that one shell pin (GND) of the mount was not soldered, so I applied solder to it and the SD card started to work only to fail after reaching the US. Unsoldered GND cannot be the issue as out of the 5 GND pins, 4 were properly soldered and there was stable 3V3 supply.
+> Despite checking multiple times for soldering issue or continuity issue I couldn’t find any. However, I noticed that one shell pin (GND) of the mount was not soldered, so I applied solder to it and the SD card started to work only to fail after reaching the US. Unsoldered GND cannot be the issue as out of the 5 GND pins, 4 were properly soldered and there was stable 3V3 supply.
 
 
 3. W25Q128JVSQ External Flash not responding
-a. The device address that the flash was returning didn’t correspond to the address as described by the manufacturer. It’s likely a counterfeit that’s why it didn’t work properly.
+> The device address that the flash was returning didn’t correspond to the address as described by the manufacturer. It’s likely a counterfeit that’s why it didn’t work properly.
 
-> asdfasd
 
-Text that is not a quote
-
-> Text that is a quote
 ## Troubleshoot
-> asdf
+
