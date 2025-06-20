@@ -140,7 +140,7 @@ Pyro Pinout:
 
 
 3. W25Q128JVSQ External Flash not responding
-> The device address that the flash was returning didn’t correspond to the address as described by the manufacturer. It’s likely a counterfeit that’s why it didn’t work properly.
+> The device address that the flash was returning didn’t correspond to the address as described by the manufacturer. Likely a counterfeit chip.
 
 
 ## Troubleshoot
