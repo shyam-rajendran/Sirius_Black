@@ -1,6 +1,0 @@
-Change Component Footprint: Designator=L3 Old Footprint=1K 0805 RESISTOR New Footprint=0402 10nH
-Change Component Footprint: Designator=L5 Old Footprint=1K 0805 RESISTOR New Footprint=0402 10nH
-Change Component Footprint: Designator=C41 Old Footprint=10UF CAPACITOR New Footprint=3.3pF
-Change Component Footprint: Designator=C42 Old Footprint=10UF CAPACITOR New Footprint=3.3pF
-Change Component Footprint: Designator=C45 Old Footprint=10UF CAPACITOR New Footprint=3.3pF
-Change Component Footprint: Designator=FB1 Old Footprint=FP-BLM21-0_2-T0_85-E0_5-IPC_B New Footprint=1kOhm Ferrite bead 0402

@@ -1,3 +1,0 @@
-Change Component Description : Designator=Q3 Old Description=MOSFET, Power,P-Ch,VDSS -20V,RDS(ON) 0.031Ohm,ID -3.7A,TO-236 (SOT-23),PD 0.75W New Description=MOSFET, Power,P-Ch,VDSS -20V,RDS(ON) 0.031Ohm,ID -3.7A,TO-236 (SOT-23),PD 0.75W | Siliconix / Vishay SI2323DS-T1-E3
-Change Component Description : Designator=U11 Old Description=Sensor;MS5611-BT M-CAPS 3X5X1MM T&R;Pressure;MS561101BA03-50 New Description=Sensor;MS5611-BT M-CAPS 3X5X1MM T&R;Pressure;MS561101BA03-50 | TE Connectivity MS561101BA03-50
-Added Pin To Net: NetName=GND Pin=C31-1
