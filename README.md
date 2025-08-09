@@ -1,4 +1,8 @@
 # Sirius Black - Flight Computer
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0d235263-e01f-4913-a329-d205f99e3bee" alt="Photo 1" height="300"/> &nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/user-attachments/assets/f9f77cec-113d-4517-879c-2e44ab66a0d1" alt="Photo 2" height="300"/>
+</p>
 
 Sirius Black is the 5th gen custom flight computer fully designed and developed in house for the sounding rocket built for IREC 25, Airavata. 
 
@@ -162,3 +166,4 @@ A lot of references and design recommendations were adopted from multiple source
 - [Phill's Lab YouTube](https://www.youtube.com/watch?v=_Hfzq1QES-Q&list=PLqBNxK9BgJkbIjCz92jbC-2v_DuTPHidB&index=13) (Highly Recommended)
 
 Author: Shyam Rajendran (monkee)
+
